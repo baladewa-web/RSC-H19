@@ -271,12 +271,12 @@ footer {
     margin-bottom: 10px;
 }
 
-.fab {
+.icon .fab {
     font-size: 32px;
     padding: 10px;
 }
 
-.fab:hover {
+.icon .fab:hover {
     color: #ACACAC;
     cursor: pointer;
 }
