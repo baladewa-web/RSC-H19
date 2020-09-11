@@ -1,0 +1,296 @@
+*{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+html {
+    background-color:#fff;
+    font-family: sans-serif, 'Arial';
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+}
+
+h1,
+h2,
+h3 { 
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+h2,
+h3 {
+    color: #080808;
+    padding-top:20px ;
+    padding-bottom: 10px ;
+}
+
+h2 {
+    font-size: 180%;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+main h2{
+    color: black;
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+
+/*Header*/
+
+a {
+    color: white;
+}
+
+header {
+    height: 140px;
+    background-color: #555;
+    
+}
+.logo {
+    height: 100px;
+    width: auto;
+    float: left;
+    margin-top: 20px;
+}
+
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 55px;
+    color: #fff;
+}
+
+.main-nav li a{
+    text-decoration: none;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.main-nav li a:hover, .active {
+    border-bottom: 2px solid #e67e22;
+    color: #e67e22;
+}
+
+/* main */
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.featured-image {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center;
+    margin: 20px;
+}
+
+#content {
+    float: left;
+    width: 75%;
+    height: 500px;
+    margin-top: 5px;
+}
+
+main p {
+    color: black;
+    text-align: left ;
+}
+aside {
+    float: right;
+    width: 25%;
+    padding-left: 20px;
+    margin-bottom: 600px;
+}
+
+.featured-image {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center;
+    margin: 20px;
+}
+
+.profile img {
+    width: 300px;
+}
+
+.profile main {
+    text-align: center;
+}
+
+.profile section {
+    text-align: left;
+}
+
+section {
+    color: black;
+}
+
+.table {
+    color: black;
+}
+.content-item {
+    width: 25%;
+    height: 50%;
+    float: left;
+    margin-right: 40px;
+
+}
+
+.txt-contents {
+  font-size: 20px;
+  margin-top: 20px;
+  display: inline-table;
+}
+.section-title {
+  border-bottom: 2px solid #dee7ec;
+  font-size: 28px;
+  padding-bottom: 15px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.lesson-wrapper {
+  height: 500px;
+  padding-bottom: 50px;
+  background-color: white;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.heading {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: normal;
+  border-bottom: 2px solid #dee7ec;
+}
+
+.lesson {
+  float: left;
+  width: 30%;
+}
+
+
+.lesson-icon{
+  position: relative;
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
+
+.lesson-icon p{
+  position: absolute;
+  top: 90px;
+  width: 100%;
+  color: white;
+}
+
+.txt-contents{
+  width: 80%;
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 20px;
+  color: black;
+  text-align: center;
+}
+img{
+    width: 100%;
+    height: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+/*================ FOOTER ==============*/
+
+footer {
+    clear: both;
+    background-color: #333;
+    margin: auto;
+    text-align: center;
+    color: #fff;
+    padding: 30px 0px 0px 0px;
+}
+
+.col-footer ul li {
+    list-style: none;
+    text-align: left;
+    border-bottom: 0.5px solid #fff;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.col-footer ul li a:hover {
+    color:  #ACACAC;
+    cursor: pointer;
+}
+
+.col-footer ul li a {
+    text-decoration: none;
+}
+
+.footer-h3 {
+    font-size: 14px;
+    color: #fff;
+}
+
+.row-footer {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    margin-bottom: 20px;
+}
+
+.footer-h3.sec {
+    border-bottom: 1px solid #eee;
+    margin-bottom: 10px;
+}
+
+.fab {
+    font-size: 32px;
+    padding: 10px;
+}
+
+.fab:hover {
+    color: #ACACAC;
+    cursor: pointer;
+}
+
+.col-footer ol li {
+    font-size: 14px;
+    color: #fff;
+    list-style: none;
+    padding: 5px;
+    text-align: left;
+}
+
+.copyright {
+    border-top: 1px solid #aaa;
+    padding: 40px;
+    font-size: 12px;
+}
